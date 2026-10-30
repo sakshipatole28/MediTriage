@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediTriage</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>MediTriage</h1>
+      <p class="muted">Multi-agent patient triage for CityCare Hospital</p>
+    </div>
+    <div class="status" id="status"><span class="dot"></span><span id="statusText">Checking backend...</span></div>
+  </header>
+
+  <main>
+    <div class="notice">
+      <strong>Emergency?</strong> Do not wait for this app. Call <strong>112</strong> or <strong>108</strong> (ambulance)
+      or go to the nearest Emergency Department. MediTriage is an educational demo, not medical advice.
+    </div>
+
+    <section class="card">
+      <h2>Describe the symptoms</h2>
+      <p class="muted">In your own words: what you feel, since when, and how bad. Three agents will check warning signs and hospital guidelines and suggest where and how soon to be seen.</p>
+
+      <div class="examples">
+        <button type="button" class="chip" data-age="22" data-example="I have had a high fever for 3 days with severe joint and body pain and pain behind my eyes. Lots of mosquitoes near my hostel. No bleeding.">Fever with joint pain</button>
+        <button type="button" class="chip" data-age="58" data-example="For the last 30 minutes I have a crushing chest pain spreading to my left arm and I am sweating a lot. I have diabetes.">Chest pain and sweating</button>
+        <button type="button" class="chip" data-age="19" data-example="I twisted my ankle playing football yesterday. It is swollen and hurts but I can still walk on it slowly.">Twisted ankle</button>
+      </div>
+
+      <form id="triageForm">
+        <label for="symptomsInput">Symptoms</label>
+        <textarea id="symptomsInput" rows="6" maxlength="4000" placeholder="e.g. Sore throat and mild fever since yesterday, painful to swallow..."></textarea>
+        <div class="fields">
+          <label>Age <input type="number" id="ageInput" min="0" max="120" placeholder="optional"></label>
+          <label>Sex
+            <select id="sexInput">
+              <option value="">not given</option>
+              <option value="female">female</option>
+              <option value="male">male</option>
+              <option value="other">other</option>
+            </select>
+          </label>
+        </div>
+        <div class="row">
+          <span class="muted" id="charCount">0 / 4000</span>
+          <button type="submit" id="submitBtn">Triage these symptoms</button>
+        </div>
+      </form>
+
+      <ol class="pipeline" id="pipeline">
+        <li data-step="0"><strong>Symptom Analyst</strong><span>Structures the complaint and picks the likely department</span></li>
+        <li data-step="1"><strong>Clinical Investigator</strong><span>Calls check_red_flags, search_medical_guidelines and get_department_info</span></li>
+        <li data-step="2"><strong>Triage Coordinator</strong><span>Decides urgency, department and what to do now</span></li>
+      </ol>
+    </section>
+
+    <section class="card hidden" id="resultCard">
+      <h2>Triage result</h2>
+      <div class="emergency hidden" id="emergencyBanner"></div>
+      <div class="badges" id="badges"></div>
+      <div class="meta" id="meta"></div>
+      <div class="report" id="report"></div>
+      <p class="muted disclaimer" id="disclaimer"></p>
+    </section>
+
+    <section class="card error hidden" id="errorCard"></section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

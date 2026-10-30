@@ -1,0 +1,23 @@
+# Exposes the Service to the outside world at http://meditriage.local (needs an ingress controller,
+# e.g. "minikube addons enable ingress", and a hosts-file entry pointing meditriage.local to the cluster IP).
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: meditriage-ingress
+  namespace: meditriage
+  annotations:
+    # Three LLM calls can take a while; do not cut the request off after the default 60s.
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "120"
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: meditriage.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: meditriage-api
+                port:
+                  name: http

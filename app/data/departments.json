@@ -1,0 +1,68 @@
+{
+  "emergency": {
+    "name": "Emergency Department",
+    "contact": "Ext. 100 / ambulance 108",
+    "location": "Ground floor, Gate 1 (open 24x7)",
+    "description": "Life-threatening problems: chest pain, stroke signs, severe breathing trouble, major injury, collapse."
+  },
+  "cardiology": {
+    "name": "Cardiology",
+    "contact": "Ext. 210",
+    "location": "Block A, 2nd floor",
+    "description": "Heart problems: palpitations, blood pressure, known heart disease follow-up."
+  },
+  "respiratory": {
+    "name": "Respiratory Medicine",
+    "contact": "Ext. 220",
+    "location": "Block A, 3rd floor",
+    "description": "Asthma, COPD, long-lasting cough, breathlessness."
+  },
+  "neurology": {
+    "name": "Neurology",
+    "contact": "Ext. 230",
+    "location": "Block B, 2nd floor",
+    "description": "Headaches, migraine, seizures, numbness, dizziness, stroke follow-up."
+  },
+  "gastroenterology": {
+    "name": "Gastroenterology",
+    "contact": "Ext. 240",
+    "location": "Block B, 3rd floor",
+    "description": "Stomach pain, vomiting, diarrhoea, acidity, liver problems."
+  },
+  "orthopedics": {
+    "name": "Orthopaedics",
+    "contact": "Ext. 250",
+    "location": "Block C, 1st floor",
+    "description": "Bones, joints, sprains, fractures, back pain."
+  },
+  "dermatology": {
+    "name": "Dermatology",
+    "contact": "Ext. 260",
+    "location": "Block C, 2nd floor",
+    "description": "Skin rashes, itching, allergies of the skin, acne, infections of the skin."
+  },
+  "ent": {
+    "name": "ENT (Ear, Nose and Throat)",
+    "contact": "Ext. 270",
+    "location": "Block C, 2nd floor",
+    "description": "Sore throat, ear pain, sinus problems, hearing problems."
+  },
+  "general-medicine": {
+    "name": "General Medicine (OPD)",
+    "contact": "Ext. 200",
+    "location": "Block A, ground floor",
+    "description": "Fever, infections, diabetes, general check-ups and anything not listed elsewhere."
+  },
+  "pediatrics": {
+    "name": "Paediatrics",
+    "contact": "Ext. 280",
+    "location": "Block D, 1st floor",
+    "description": "Children under 16: fever, cough, rashes, feeding problems, vaccination."
+  },
+  "mental-health": {
+    "name": "Mental Health & Counselling",
+    "contact": "Ext. 290 / Tele-MANAS 14416",
+    "location": "Block D, 2nd floor",
+    "description": "Low mood, anxiety, stress, sleep problems, thoughts of self-harm."
+  }
+}

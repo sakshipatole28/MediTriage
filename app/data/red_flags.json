@@ -1,0 +1,47 @@
+[
+  {
+    "id": "RF-CARDIAC",
+    "name": "Possible heart attack",
+    "phrases": ["chest pain", "chest tightness", "crushing chest", "pressure in my chest", "pain in my chest", "pain spreading to my arm", "pain in my left arm"]
+  },
+  {
+    "id": "RF-STROKE",
+    "name": "Possible stroke",
+    "phrases": ["face drooping", "face is drooping", "slurred speech", "speech is slurred", "weakness on one side", "numbness on one side", "can't lift my arm", "cannot lift my arm", "sudden confusion"]
+  },
+  {
+    "id": "RF-BREATHING",
+    "name": "Severe breathing difficulty",
+    "phrases": ["can't breathe", "cannot breathe", "unable to breathe", "struggling to breathe", "gasping for air", "blue lips", "lips turning blue", "can't speak in full sentences"]
+  },
+  {
+    "id": "RF-ANAPHYLAXIS",
+    "name": "Possible severe allergic reaction (anaphylaxis)",
+    "phrases": ["tongue swelling", "swollen tongue", "throat swelling", "throat is closing", "swelling of the lips", "lips are swelling", "face swelling"]
+  },
+  {
+    "id": "RF-BLEEDING",
+    "name": "Serious bleeding",
+    "phrases": ["vomiting blood", "coughing up blood", "blood in vomit", "heavy bleeding", "won't stop bleeding", "bleeding won't stop", "black stools"]
+  },
+  {
+    "id": "RF-CONSCIOUSNESS",
+    "name": "Collapse, fit or loss of consciousness",
+    "phrases": ["unconscious", "passed out", "fainted", "unresponsive", "seizure", "having a fit", "convulsions", "hard to wake"]
+  },
+  {
+    "id": "RF-HEADACHE",
+    "name": "Sudden severe headache",
+    "phrases": ["worst headache", "thunderclap headache", "sudden severe headache"]
+  },
+  {
+    "id": "RF-MENINGITIS",
+    "name": "Possible meningitis",
+    "phrases": ["stiff neck", "rash that doesn't fade", "rash does not fade"]
+  },
+  {
+    "id": "RF-SELFHARM",
+    "name": "Risk of self-harm",
+    "phrases": ["suicide", "suicidal", "kill myself", "end my life", "harm myself", "hurt myself", "self harm", "self-harm"]
+  }
+]

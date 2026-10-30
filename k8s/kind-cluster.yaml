@@ -1,0 +1,14 @@
+# kind = "Kubernetes IN Docker": a real Kubernetes cluster whose node is a Docker container.
+# Not a Kubernetes object, so it is NOT listed in kustomization.yaml.
+# Create:  kind create cluster --name meditriage --config k8s/kind-cluster.yaml
+# Delete:  kind delete cluster --name meditriage
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+    extraPortMappings:
+      # Host port 30090 -> NodePort 30090 of the meditriage-api Service.
+      # So the app is at http://localhost:30090 with no port-forward.
+      - containerPort: 30090
+        hostPort: 30090
+        protocol: TCP

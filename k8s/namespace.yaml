@@ -1,0 +1,7 @@
+# A namespace is a separate "folder" in the cluster for all MediTriage objects.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: meditriage
+  labels:
+    app.kubernetes.io/name: meditriage

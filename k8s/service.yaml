@@ -1,0 +1,16 @@
+# A stable address that load-balances over the ready pods.
+# Inside the cluster: meditriage-api.meditriage.svc. From the host: http://localhost:30090 (NodePort).
+apiVersion: v1
+kind: Service
+metadata:
+  name: meditriage-api
+  namespace: meditriage
+spec:
+  type: NodePort
+  selector:
+    app: meditriage-api              # send traffic to pods with this label
+  ports:
+    - name: http
+      port: 80                      # port of the Service
+      targetPort: http              # containerPort 8000 in the pod
+      nodePort: 30090               # opened on the node; kind maps it to the host (k8s/kind-cluster.yaml)

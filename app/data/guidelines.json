@@ -1,0 +1,142 @@
+[
+  {
+    "id": "GL-201",
+    "title": "Chest pain - possible heart attack",
+    "department": "emergency",
+    "typical_urgency": "U1",
+    "keywords": ["chest pain", "chest tightness", "heart", "left arm", "jaw", "sweating", "pressure", "heart attack"],
+    "description": "Pressure, squeezing or heavy pain in the chest, often spreading to the left arm, jaw or back, with sweating, nausea or breathlessness. Risk is higher with age, diabetes, smoking and high blood pressure.",
+    "red_flags": ["Pain lasting more than a few minutes", "Pain spreading to arm, jaw or back", "Sweating, fainting or breathlessness"],
+    "advice": "Treat as an emergency. Call 108 / 112 or go to the Emergency Department now. Do not drive yourself. Sit down and rest while waiting."
+  },
+  {
+    "id": "GL-202",
+    "title": "Stroke warning signs (FAST)",
+    "department": "emergency",
+    "typical_urgency": "U1",
+    "keywords": ["face", "drooping", "slurred", "speech", "weakness", "numbness", "one side", "stroke", "confusion"],
+    "description": "FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency. Also sudden loss of vision, balance or sudden confusion.",
+    "red_flags": ["Any FAST sign, even if it goes away", "Sudden severe headache with weakness"],
+    "advice": "Emergency. Note the time the symptoms started and call 108 / 112 immediately. Treatment works best in the first few hours."
+  },
+  {
+    "id": "GL-203",
+    "title": "Asthma flare / shortness of breath",
+    "department": "respiratory",
+    "typical_urgency": "U2",
+    "keywords": ["asthma", "wheeze", "wheezing", "breathless", "shortness of breath", "inhaler", "cough", "tight chest"],
+    "description": "Wheezing, cough and breathlessness, often at night or after triggers such as dust, smoke or exercise. Reliever inhaler helps less than usual.",
+    "red_flags": ["Too breathless to speak full sentences", "Blue or grey lips", "Reliever inhaler not helping"],
+    "advice": "Use the reliever inhaler as in the written asthma plan and sit upright. Be seen by a doctor within 1-2 hours; go to Emergency if breathing gets worse."
+  },
+  {
+    "id": "GL-204",
+    "title": "Migraine and tension-type headache",
+    "department": "neurology",
+    "typical_urgency": "U4",
+    "keywords": ["headache", "migraine", "throbbing", "light", "nausea", "aura", "head"],
+    "description": "Recurring headache, one-sided and throbbing (migraine) or band-like (tension), sometimes with nausea or sensitivity to light. Similar to previous headaches.",
+    "red_flags": ["Sudden 'worst ever' headache", "Headache with fever and stiff neck", "Headache after a head injury", "New weakness or confusion"],
+    "advice": "Rest in a dark quiet room, drink water. A pharmacist can advise on simple pain relief. Book a routine appointment if headaches are frequent."
+  },
+  {
+    "id": "GL-205",
+    "title": "Fever and flu-like illness in adults",
+    "department": "general-medicine",
+    "typical_urgency": "U4",
+    "keywords": ["fever", "temperature", "flu", "body ache", "chills", "cold", "runny nose", "tired"],
+    "description": "Fever, body aches, tiredness, sore throat or runny nose for a few days. Usually a viral infection that gets better on its own within a week.",
+    "red_flags": ["Fever above 39.5 C for more than 3 days", "Confusion, stiff neck or rash", "Breathing difficulty"],
+    "advice": "Rest, drink plenty of fluids. A pharmacist can advise on fever relief. See a doctor if fever lasts more than 3 days or warning signs appear."
+  },
+  {
+    "id": "GL-206",
+    "title": "Suspected dengue fever",
+    "department": "general-medicine",
+    "typical_urgency": "U3",
+    "keywords": ["dengue", "high fever", "joint pain", "eyes", "rash", "mosquito", "platelets", "body pain"],
+    "description": "High fever with severe body and joint pain, pain behind the eyes and sometimes a rash, often during the monsoon season. Needs a blood test.",
+    "red_flags": ["Bleeding gums or nose", "Severe stomach pain or repeated vomiting", "Very tired or restless"],
+    "advice": "Get a same-day or next-day blood test at the OPD. Drink plenty of fluids. Avoid painkillers such as ibuprofen or aspirin unless a doctor says so."
+  },
+  {
+    "id": "GL-207",
+    "title": "Gastroenteritis - vomiting and diarrhoea",
+    "department": "gastroenterology",
+    "typical_urgency": "U4",
+    "keywords": ["diarrhoea", "diarrhea", "vomiting", "loose motions", "stomach upset", "food poisoning", "nausea"],
+    "description": "Loose stools and/or vomiting, often after outside food or water, usually settling in 2-3 days. Main risk is dehydration.",
+    "red_flags": ["Blood in stool or vomit", "Unable to keep fluids down for 24 hours", "Very little urine, dizziness"],
+    "advice": "Sip oral rehydration solution (ORS) often. Eat light food when ready. See a doctor if it lasts more than 3 days or signs of dehydration appear."
+  },
+  {
+    "id": "GL-208",
+    "title": "Acute abdominal pain - possible appendicitis",
+    "department": "emergency",
+    "typical_urgency": "U2",
+    "keywords": ["abdominal pain", "stomach pain", "lower right", "appendix", "appendicitis", "belly", "abdomen"],
+    "description": "Pain that starts around the navel and moves to the lower right abdomen, getting worse over hours, often with fever, nausea and loss of appetite.",
+    "red_flags": ["Severe pain that is getting worse", "Hard, tender belly", "Fever with vomiting"],
+    "advice": "Be seen by a doctor within 1-2 hours. Do not eat until examined. Go to Emergency if the pain becomes severe."
+  },
+  {
+    "id": "GL-209",
+    "title": "Sprain or minor limb injury",
+    "department": "orthopedics",
+    "typical_urgency": "U4",
+    "keywords": ["sprain", "twisted", "ankle", "wrist", "knee", "swelling", "injury", "fall", "football"],
+    "description": "Pain and swelling after twisting a joint, able to put some weight on it. Most sprains heal in 2-6 weeks.",
+    "red_flags": ["Cannot bear weight at all", "Limb looks deformed", "Numbness or cold, pale limb"],
+    "advice": "RICE: Rest, Ice (20 minutes at a time), Compression and Elevation. Book an orthopaedics appointment if not improving in a week; same day if you cannot bear weight."
+  },
+  {
+    "id": "GL-210",
+    "title": "Skin rash and mild allergic reaction",
+    "department": "dermatology",
+    "typical_urgency": "U4",
+    "keywords": ["rash", "itching", "itchy", "hives", "skin", "allergy", "red spots", "eczema"],
+    "description": "Itchy red patches or raised hives, often after a new food, soap or medicine, without breathing problems or face swelling.",
+    "red_flags": ["Swelling of lips, tongue or throat", "Difficulty breathing", "Rash that does not fade when pressed with a glass"],
+    "advice": "Avoid the suspected trigger. A pharmacist can advise on antihistamines. Book a dermatology appointment if it lasts more than a week."
+  },
+  {
+    "id": "GL-211",
+    "title": "Sore throat and ear pain",
+    "department": "ent",
+    "typical_urgency": "U5",
+    "keywords": ["sore throat", "throat", "ear pain", "earache", "tonsils", "swallowing", "sinus"],
+    "description": "Painful throat or ear, often with a cold. Most cases are viral and settle within a week.",
+    "red_flags": ["Cannot swallow saliva or open the mouth", "Drooling or muffled voice", "Discharge from the ear with high fever"],
+    "advice": "Warm salt-water gargles, fluids and rest. See ENT if not better in a week or if warning signs appear."
+  },
+  {
+    "id": "GL-212",
+    "title": "Fever in a child",
+    "department": "pediatrics",
+    "typical_urgency": "U3",
+    "keywords": ["child", "baby", "kid", "son", "daughter", "toddler", "infant", "fever"],
+    "description": "Fever in a child, often with cold or cough. Most are mild viral illnesses, but young babies and drowsy children need quick review.",
+    "red_flags": ["Baby under 3 months with any fever", "Very drowsy or hard to wake", "Fits (seizure)", "Not drinking or no wet nappy for 12 hours"],
+    "advice": "Keep the child drinking fluids and lightly dressed. Book a same-day paediatrics visit; go to Emergency for any warning sign."
+  },
+  {
+    "id": "GL-213",
+    "title": "Low mood, anxiety and thoughts of self-harm",
+    "department": "mental-health",
+    "typical_urgency": "U3",
+    "keywords": ["sad", "depressed", "depression", "anxiety", "anxious", "panic", "stress", "can't sleep", "hopeless", "low mood"],
+    "description": "Feeling low, hopeless, anxious or stressed for weeks, poor sleep or appetite, losing interest in things.",
+    "red_flags": ["Thoughts of ending life or self-harm", "Plans or means to self-harm"],
+    "advice": "Talk to someone you trust. Book a counselling appointment. Tele-MANAS 14416 is free and 24x7. If you might act on thoughts of self-harm, go to Emergency now."
+  },
+  {
+    "id": "GL-214",
+    "title": "Diabetes - high or low blood sugar",
+    "department": "general-medicine",
+    "typical_urgency": "U2",
+    "keywords": ["diabetes", "diabetic", "sugar", "insulin", "glucose", "shaky", "thirsty", "hypo"],
+    "description": "Low sugar: shaking, sweating, confusion. High sugar: thirst, passing a lot of urine, tiredness, sometimes vomiting.",
+    "red_flags": ["Confused or drowsy", "Vomiting with high sugar", "Low sugar not improving after sugary drink"],
+    "advice": "If low: take a sugary drink or glucose now and recheck in 15 minutes. If high and unwell: be seen by a doctor within 1-2 hours."
+  }
+]
